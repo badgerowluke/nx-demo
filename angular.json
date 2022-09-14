@@ -1,0 +1,8 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "counselortree": "apps/counselortree",
+    "counselortree-e2e": "apps/counselortree-e2e"
+  }
+}
