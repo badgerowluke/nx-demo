@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@swogeti/control-flow": ["libs/control-flow/src/index.ts"],
+      "@swogeti/dashboard": ["libs/dashboard/src/index.ts"],
+      "@swogeti/home-component": ["libs/home-component/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

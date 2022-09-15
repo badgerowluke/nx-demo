@@ -2,7 +2,10 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "control-flow": "libs/control-flow",
     "counselortree": "apps/counselortree",
-    "counselortree-e2e": "apps/counselortree-e2e"
+    "counselortree-e2e": "apps/counselortree-e2e",
+    "dashboard": "libs/dashboard",
+    "home-component": "libs/home-component"
   }
 }

@@ -1,0 +1,25 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/control-flow/src",
+  "prefix": "swogeti",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/control-flow"],
+      "options": {
+        "jestConfig": "libs/control-flow/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/control-flow/**/*.ts",
+          "libs/control-flow/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}
