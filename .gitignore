@@ -39,3 +39,4 @@ testem.log
 Thumbs.db
 
 .angular
+apps/counselortree/src/assets/config/config.json
